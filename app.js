@@ -11,6 +11,9 @@ const users = require('./routes/routes');
 
 const dbURI = 'mongodb://127.0.0.1:27017/node_crud';
 
+//This is added by me here 
+const a = 10;
+
 mongoose.connect(dbURI);
 const db = mongoose.connection;
 
